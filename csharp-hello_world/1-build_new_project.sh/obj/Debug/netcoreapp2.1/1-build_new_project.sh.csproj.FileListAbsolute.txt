@@ -1,0 +1,11 @@
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\bin\Debug\netcoreapp2.1\1-build_new_project.sh.deps.json
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\bin\Debug\netcoreapp2.1\1-build_new_project.sh.runtimeconfig.json
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\bin\Debug\netcoreapp2.1\1-build_new_project.sh.runtimeconfig.dev.json
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\bin\Debug\netcoreapp2.1\1-build_new_project.sh.dll
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\bin\Debug\netcoreapp2.1\1-build_new_project.sh.pdb
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.csprojAssemblyReference.cache
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.csproj.CoreCompileInputs.cache
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.AssemblyInfoInputs.cache
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.AssemblyInfo.cs
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.dll
+C:\Users\6kort\Documents\csharp-hello_world\1-build_new_project.sh\obj\Debug\netcoreapp2.1\1-build_new_project.sh.pdb
