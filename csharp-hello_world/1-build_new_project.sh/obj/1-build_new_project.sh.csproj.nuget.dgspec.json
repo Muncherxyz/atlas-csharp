@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6kort\\Documents\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj": {}
+    "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6kort\\Documents\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj": {
+    "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6kort\\Documents\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj",
+        "projectUniqueName": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj",
         "projectName": "1-build_new_project.sh",
-        "projectPath": "C:\\Users\\6kort\\Documents\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj",
+        "projectPath": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-hello_world\\1-build_new_project.sh\\1-build_new_project.sh.csproj",
         "packagesPath": "C:\\Users\\6kort\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6kort\\Documents\\csharp-hello_world\\1-build_new_project.sh\\obj\\",
+        "outputPath": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-hello_world\\1-build_new_project.sh\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"

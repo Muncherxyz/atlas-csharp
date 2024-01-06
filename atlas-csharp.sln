@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-hello_world", "csharp-hello_world", "{D188992D-9234-4CFB-9183-9108A88CD076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-build_new_project.sh", "csharp-hello_world\1-build_new_project.sh\1-build_new_project.sh.csproj", "{0ECB06B2-D4D6-405E-8436-8B4972D62EFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_new_project", "csharp-hello_world\1_new_project\1_new_project.csproj", "{1328062E-92F5-4D0B-BC62-CEDCF31252F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ECB06B2-D4D6-405E-8436-8B4972D62EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECB06B2-D4D6-405E-8436-8B4972D62EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECB06B2-D4D6-405E-8436-8B4972D62EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECB06B2-D4D6-405E-8436-8B4972D62EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1328062E-92F5-4D0B-BC62-CEDCF31252F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1328062E-92F5-4D0B-BC62-CEDCF31252F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1328062E-92F5-4D0B-BC62-CEDCF31252F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1328062E-92F5-4D0B-BC62-CEDCF31252F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ECB06B2-D4D6-405E-8436-8B4972D62EFF} = {D188992D-9234-4CFB-9183-9108A88CD076}
+		{1328062E-92F5-4D0B-BC62-CEDCF31252F7} = {D188992D-9234-4CFB-9183-9108A88CD076}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC941A1-541D-4EE0-A46D-FA1BE281F3BF}
+	EndGlobalSection
+EndGlobal
