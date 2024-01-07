@@ -1,0 +1,11 @@
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\bin\Debug\netcoreapp2.1\5-print_comb.cs.deps.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\bin\Debug\netcoreapp2.1\5-print_comb.cs.runtimeconfig.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\bin\Debug\netcoreapp2.1\5-print_comb.cs.runtimeconfig.dev.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\bin\Debug\netcoreapp2.1\5-print_comb.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\bin\Debug\netcoreapp2.1\5-print_comb.cs.pdb
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.csprojAssemblyReference.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.csproj.CoreCompileInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.AssemblyInfoInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.AssemblyInfo.cs
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\5-print_comb\obj\Debug\netcoreapp2.1\5-print_comb.cs.pdb
