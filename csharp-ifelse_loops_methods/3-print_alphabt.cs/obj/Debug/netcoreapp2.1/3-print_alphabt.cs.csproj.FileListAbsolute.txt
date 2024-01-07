@@ -1,0 +1,11 @@
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\bin\Debug\netcoreapp2.1\3-print_alphabt.cs.deps.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\bin\Debug\netcoreapp2.1\3-print_alphabt.cs.runtimeconfig.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\bin\Debug\netcoreapp2.1\3-print_alphabt.cs.runtimeconfig.dev.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\bin\Debug\netcoreapp2.1\3-print_alphabt.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\bin\Debug\netcoreapp2.1\3-print_alphabt.cs.pdb
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.csprojAssemblyReference.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.csproj.CoreCompileInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.AssemblyInfoInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.AssemblyInfo.cs
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\3-print_alphabt.cs\obj\Debug\netcoreapp2.1\3-print_alphabt.cs.pdb
