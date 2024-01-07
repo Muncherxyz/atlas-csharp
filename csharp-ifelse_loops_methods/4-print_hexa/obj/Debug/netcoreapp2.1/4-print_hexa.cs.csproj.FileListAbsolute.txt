@@ -1,0 +1,11 @@
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\bin\Debug\netcoreapp2.1\4-print_hexa.cs.deps.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\bin\Debug\netcoreapp2.1\4-print_hexa.cs.runtimeconfig.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\bin\Debug\netcoreapp2.1\4-print_hexa.cs.runtimeconfig.dev.json
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\bin\Debug\netcoreapp2.1\4-print_hexa.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\bin\Debug\netcoreapp2.1\4-print_hexa.cs.pdb
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.csprojAssemblyReference.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.csproj.CoreCompileInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.AssemblyInfoInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.AssemblyInfo.cs
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.dll
+C:\Users\6kort\Documents\atlas-csharp\csharp-ifelse_loops_methods\4-print_hexa\obj\Debug\netcoreapp2.1\4-print_hexa.cs.pdb
