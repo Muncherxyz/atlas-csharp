@@ -1,0 +1,4 @@
+C:\Users\6kort\Documents\atlas-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\netcoreapp2.1\1-element_at.csprojAssemblyReference.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\netcoreapp2.1\1-element_at.csproj.CoreCompileInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\netcoreapp2.1\1-element_at.AssemblyInfoInputs.cache
+C:\Users\6kort\Documents\atlas-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\netcoreapp2.1\1-element_at.AssemblyInfo.cs
