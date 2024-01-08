@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _0_unique_add
+public class List
 {
-    class Program
+    public static int Sum(List<int> myList)
     {
-        static void Main(string[] args)
+        HashSet<int> uniqueSet = new HashSet<int>(myList);
+        int sum = 0;
+
+        foreach (int item in uniqueSet)
         {
-            Console.WriteLine("Hello World!");
+            sum += item;
         }
+
+        return sum;
     }
 }
