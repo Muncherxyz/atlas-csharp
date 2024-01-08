@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+
 public class List
 {
     public static List<bool> DivisibleBy2(List<int> myList)
