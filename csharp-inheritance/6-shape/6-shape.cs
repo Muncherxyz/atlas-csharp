@@ -11,20 +11,31 @@ public class Shape
 
 public class Rectangle : Shape
 {
-    private int width
-    private int height
+    private int width;
+    private int height;
 
     public int width
     {
-        get {return width; }
-        set { if (value < 0) throw new ArgumentException("Width must be greater than or equal to 0"); else width = value;}
+        get { return width; }
+        set 
+        { 
+            if (value < 0) 
+            throw new ArgumentException("Width must be greater than or equal to 0");
+             else 
+             width = value;
+        }
 
     }
     
     public int height
     {
-        get {return height; }
-        set { if (value < 0) throw new ArgumentException("Height must be greater than or equal to 0"); else height = value; }
+        get { return height; }
+        set 
+        { 
+            if (value < 0) 
+            throw new ArgumentException("Height must be greater than or equal to 0"); 
+            else height = value; 
+        }
         
     }
 
