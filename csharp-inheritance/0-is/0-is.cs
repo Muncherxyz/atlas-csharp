@@ -1,16 +1,12 @@
 ﻿using System;
 
-class Obj 
+public class Obj 
 {
     public static bool IsOfTypeInt(object obj)
     {
         if (obj.GetType() == typeof(int))
-        {
-            return True
-        }
+            return true;
         else
-        {
-            return False
-        }
+            return false;
     }
 }
