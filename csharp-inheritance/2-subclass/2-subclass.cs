@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace _2_subclass
+public class Obj
 {
-    class Program
+    public static bool IsOnlyASubclass(Type derivedType, Type baseType)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        if(obj.IsSubclassOf(baseType))
+        return true;
+        else
+        return false;
     }
 }
