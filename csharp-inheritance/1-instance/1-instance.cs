@@ -4,8 +4,8 @@ public class Obj
 {
     public static bool IsInstanceOfArray(object obj)
     {
-        if(obj.IsInstanceOfArray)
-        return true;
+        if(obj is Array)
+         return true;
         else
         return false;
     }
