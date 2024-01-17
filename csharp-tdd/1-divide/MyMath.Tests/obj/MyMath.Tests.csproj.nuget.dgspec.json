@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-tdd\\1-divide\\MyMath.Tests\\MyMath.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-tdd\\1-divide\\MyMath.Tests\\MyMath.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-tdd\\1-divide\\MyMath.Tests\\MyMath.Tests.csproj",
+        "projectName": "MyMath.Tests",
+        "projectPath": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-tdd\\1-divide\\MyMath.Tests\\MyMath.Tests.csproj",
+        "packagesPath": "C:\\Users\\6kort\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\6kort\\Documents\\atlas-csharp\\csharp-tdd\\1-divide\\MyMath.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\6kort\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
