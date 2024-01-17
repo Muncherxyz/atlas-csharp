@@ -27,7 +27,7 @@ public interface IBreakable
 
 public interface ICollectable
 {
-    bool IsCollected { get; set;} 
+    bool isCollected { get; set; } 
     void Collect();
 }
 
@@ -35,7 +35,7 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     public int durability {
         get => throw new NotImplementedException();
-        get => throw new NotImplementedException();
+        set => throw new NotImplementedException();
     }
     public bool isCollected {
         get => throw new NotImplementedException();
