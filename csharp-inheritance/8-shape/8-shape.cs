@@ -59,7 +59,6 @@ public class Square : Rectangle
         { 
             if (value < 0) 
             throw new ArgumentException("Size must be great than or equal to 0");
-            else
             
                 size = value;
                 height = value;
