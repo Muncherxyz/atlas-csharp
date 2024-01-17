@@ -10,11 +10,13 @@ public class Shape
     }
 }
 
+
 public class Rectangle : Shape
 {
     private int width;
     private int height;
 
+  
     public int Width
     {
         get { return width; }
@@ -26,7 +28,7 @@ public class Rectangle : Shape
                 width = value;
         }
     }
-   
+
     public int Height
     {
         get { return height; }
@@ -38,32 +40,35 @@ public class Rectangle : Shape
                 height = value;
         }
     }
+  
     public new int Area()
     {
         return height * width;
     }
+   
     public override string ToString()
     {
         return $"[Rectangle] {width} / {height}";
     }
-
 }
+
 
 public class Square : Rectangle
 {
     private int size;
-    public int size
+
+ 
+    public int Size
     {
         get { return size; }
-        set 
-        { 
-            if (value < 0) 
-            throw new ArgumentException("Size must be great than or equal to 0");
+        set
+        {
+            if (value < 0)
+                throw new ArgumentException("Size must be greater than or equal to 0");
             
-                size = value;
-                height = value;
-                width = value;
-            
+            size = value;
+            Height = value;
+            Width = value;
         }
     }
 }
