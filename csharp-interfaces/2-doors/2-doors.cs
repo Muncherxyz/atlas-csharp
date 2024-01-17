@@ -37,7 +37,7 @@ public interface IBreakable
     /// </summary>
     int durability { get; set; }
     /// Break Method ///
-    void break();
+    void Break();
 }
 
 public interface ICollectable
