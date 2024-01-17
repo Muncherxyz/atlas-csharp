@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 /// Abstract class named Base
 public abstract class Base
@@ -134,6 +135,19 @@ public class RoomObjects
                 IInteractive obj = item as IInteractive;
                 /// Checks if success
                 if (obj != null) { obj.Interact(); }
+            }
+            if (type.ToString() == "IBreakable" && item is IBreakable)
+            {
+                IBreakable obj = item as IBreakable;
+
+                if (obj != null) { obj.Break(); }
+            }
+
+            if (type.ToString() == "ICollectable" && item is ICollectable)
+            {
+                ICollectable obj = item as ICollectable;
+
+                if (obj != null) { obj.Collect(); }
             }
             
         }
