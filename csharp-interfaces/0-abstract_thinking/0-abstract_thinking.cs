@@ -1,7 +1,7 @@
 ﻿using System;
 
 /// <summary>Abstract class called Base/// </summary>
-abstract class Base
+public abstract class Base
 {
     /// <summary>Public property name/// </summary>
     public string name;
