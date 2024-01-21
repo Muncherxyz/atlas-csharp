@@ -86,7 +86,7 @@ public class Player
 /// <summary>
 /// damage modifiers
 /// </summary>
-enum Modifier
+public enum Modifier
 {
     Weak,
     Base,
@@ -97,4 +97,4 @@ enum Modifier
 /// o_O
 /// </summary>
 
-public delegate float CalculateModifier(float baseValue, Modifier modifier)
+public delegate float CalculateModifier(float baseValue, Modifier modifier);
