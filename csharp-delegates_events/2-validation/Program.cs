@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 /// <summary>
 /// Public class Player created
@@ -22,9 +22,9 @@ public class Player
     public Player(string name="Player", float maxHp=100f)
     {
         this.name = name;
-        if(maxHp <= 0f){
-            Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
+        if(maxHp <= 0){
             maxHp = 100f;
+            Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
         }
         this.maxHp = maxHp;
         this.hp = this.maxHp;
@@ -39,32 +39,35 @@ public class Player
     /// </summary>
     public void TakeDamage(float damage)
     {
-        if(damage < 0f)
-        {
+        if(damage <= 0f)
             damage = 0f;
-            Console.WriteLine("{0} takes {1} damage!", name, damage); 
-            ValidateHP(hp - damage);
-        }
-
+            Console.WriteLine("{0} takes {1} damage!", name, damage);
+            damage = this.hp - damage;
+            ValidateHP(damage);
+    
     }
 /// <summary>
 /// Heal method. if heal is negative prints heals 0 hp
 /// </summary>
     public void HealDamage(float heal)
     {
-        if(heal < 0f)
-        {
+        if(heal <= 0f)
             heal = 0f;
-            Console.WriteLine("{0} heals {1} HP!", name);
-            ValidateHP(hp + heal);
-        }
+            Console.WriteLine("{0} heals {1} HP!", name, heal);
+            heal += this.hp;
+            ValidateHP(heal);
+        
     }
-
     /// <summary>
     /// HP setter. Sets the new value of the Players HP.
     /// </summary>
     public void ValidateHP(float newHp)
     {
-        hp = Math.Clamp(newHp, 0, maxHp);
+        if(newHp < 0)
+            this.hp = 0;
+        else if(newHp > this.maxHp)
+            this.hp = this.maxHp;
+        else
+            this.hp = newHp;
     }
 }
