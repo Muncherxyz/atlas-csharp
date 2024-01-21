@@ -34,7 +34,7 @@ public class Player
         this.maxHp = maxHp;
         this.hp = this.maxHp;
         this.status = string.Format("{0} is ready to go!", name);
-        CheckStatus += HPCheck
+        CheckStatus += HPCheck;
     }
     /// Prints health similar to that of a typical HP bar
     public void PrintHealth()
