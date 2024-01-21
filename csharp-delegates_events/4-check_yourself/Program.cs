@@ -34,7 +34,7 @@ public class Player
         this.maxHp = maxHp;
         this.hp = this.maxHp;
         this.status = string.Format("{0} is ready to go!", name);
-        CheckStatus += HPCheck;
+        HPCheck += CheckStatus;
     }
     /// Prints health similar to that of a typical HP bar
     public void PrintHealth()
@@ -136,7 +136,7 @@ public class CurrentHPArgs : EventArgs
     /// <summary>
     /// property for the current amount of HP, cannot be modified
     /// </summary>
-    protected float currentHp;
+    public float currentHp { get; }
     /// <summary>
     /// sets newHp value as currentHp
     /// </summary>
