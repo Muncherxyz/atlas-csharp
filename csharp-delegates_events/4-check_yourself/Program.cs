@@ -97,15 +97,15 @@ public class Player
     {
         float currentCondition = e.currentHp/maxHp;
         if (currentCondition == 1)
-            status = string.Format("{0} is in perfect health!", name);
-        else if (currentCondition >= 0.5f)
-            status = string.Format("{0} is doing well!", name);
-        else if (currentCondition >= 0.25f)
-            status = string.Format("{0} isnt doing too great...", name);
-        else if (currentCondition > 0f)
-            status = string.Format("{0} needs help!", name);
+            status = String.Format("{0} is in perfect health!", name);
+        else if (currentCondition >=0.5f)
+            status = String.Format("{0} is doing well!", name);
+        else if (currentCondition >=0.25f)
+            status = String.Format("{0} isnt doing too great...", name);
+        else if (currentCondition >0f)
+            status = String.Format("{0} needs help!", name);
         else
-            status = string.Format("{0} is knocked out!", name);
+            status = String.Format("{0} is knocked out!", name);
     }
 
 
