@@ -52,9 +52,9 @@ public void TakeDamage(float damage)
 public void HealDamage(float heal)
 {
     Console.WriteLine("{0} heals {1} HP!", name, heal)
-    if(damage < 0)
+    if(heal < 0)
     {
-        damage = 0;
+        heal = 0;
         Console.WriteLine("{0} heals 0 HP!" , name)
     }
 
