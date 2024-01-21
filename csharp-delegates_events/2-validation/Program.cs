@@ -22,9 +22,9 @@ public class Player
     public Player(string name="Player", float maxHp=100f)
     {
         this.name = name;
-        if(maxHp <= 0){
-            maxHp = 100f;
+        if(maxHp <= 0f){
             Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
+            maxHp = 100f;
         }
         this.maxHp = maxHp;
         this.hp = this.maxHp;
@@ -39,9 +39,9 @@ public class Player
     /// </summary>
     public void TakeDamage(float damage)
     {
-        if(damage < 0)
+        if(damage < 0f)
         {
-            damage = 0;
+            damage = 0f;
             Console.WriteLine("{0} takes {1} damage!", name, damage); 
             ValidateHP(hp - damage);
         }
@@ -52,9 +52,9 @@ public class Player
 /// </summary>
     public void HealDamage(float heal)
     {
-        if(heal < 0)
+        if(heal < 0f)
         {
-            heal = 0;
+            heal = 0f;
             Console.WriteLine("{0} heals {1} HP!", name);
             ValidateHP(hp + heal);
         }
