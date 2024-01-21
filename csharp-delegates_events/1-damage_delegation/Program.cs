@@ -40,10 +40,11 @@ public class Player
     public void TakeDamage(float damage)
     {
         Console.WriteLine("{0} takes {1} damage!", name, damage);
-        if(damage <= 0)
+        if(damage < 0)
         {
-            damage = 0;
+        
             Console.WriteLine("{0} takes 0 damage!", name, damage);
+            damage = 0;
         }
     }
 /// <summary>
@@ -52,10 +53,11 @@ public class Player
     public void HealDamage(float heal)
     {
         Console.WriteLine("{0} heals {1} HP!", name, heal);
-        if(heal <=0)
+        if(heal < 0)
         {
-            heal = 0;
+            
             Console.WriteLine("{0} heals 0 HP!", name);
+            heal = 0;
         }
     }
 }
