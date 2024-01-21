@@ -73,7 +73,7 @@ public class Player
     /// <summary>
     /// Modifier method that calculates hit effectiveness
     /// </summary>
-    public void ApplyModifier(float baseValue, Modifier modifier)
+    public float ApplyModifier(float baseValue, Modifier modifier)
     {
         if(modifier == Modifier.Weak)
             return .5/baseValue;
