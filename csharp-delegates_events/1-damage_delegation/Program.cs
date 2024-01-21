@@ -37,25 +37,25 @@ public class Player
     /// <summary>
     /// Damage Method. if damage is negative prints takes 0 damage
     /// </summary>
-    public void TakeDamage(float damage)
+public void TakeDamage(float damage)
+{
+    Console.WriteLine("{0} takes {1} damage!", name, damage)
+    if(damage < 0)
     {
-        if(damage < 0)
-        {
-        
-            Console.WriteLine("{0} takes {1} damage!", name, damage);
-            damage = 0;
-        }
+        damage = 0;
+        Console.WriteLine("{0} takes 0 damage!" , name)
     }
+}
 /// <summary>
 /// Heal method. if heal is negative prints heals 0 hp
 /// </summary>
-    public void HealDamage(float heal)
+public void HealDamage(float heal)
+{
+    Console.WriteLine("{0} heals {1} HP!", name, heal)
+    if(damage < 0)
     {
-        if(heal < 0)
-        {
-            
-            Console.WriteLine("{0} heals {1} HP!", name);
-            heal = 0;
-        }
+        damage = 0;
+        Console.WriteLine("{0} heals 0 HP!" , name)
     }
+
 }
