@@ -76,11 +76,11 @@ public class Player
     public float ApplyModifier(float baseValue, Modifier modifier)
     {
         if(modifier == Modifier.Weak)
-            return .5/baseValue;
+            return baseValue * .5f;
         else if(modifier == Modifier.Strong)
-            return 1.5 * baseValue;
+            return baseValue * 1.5f;
         else    
-            return baseValue
+            return baseValue;
     }
 }
 /// <summary>
