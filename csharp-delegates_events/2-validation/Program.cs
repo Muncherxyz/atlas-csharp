@@ -41,10 +41,11 @@ public class Player
     {
         if(damage < 0)
         {
-        
-            Console.WriteLine("{0} takes 0 damage!", name, damage);
             damage = 0;
+            Console.WriteLine("{0} takes {1} damage!", name, damage);
+            ValidateHP(hp - damage);
         }
+
     }
 /// <summary>
 /// Heal method. if heal is negative prints heals 0 hp
@@ -53,9 +54,25 @@ public class Player
     {
         if(heal < 0)
         {
-            
-            Console.WriteLine("{0} heals 0 HP!", name);
             heal = 0;
+            Console.WriteLine("{0} heals {1} HP!", name);
+            ValidateHP(hp + heal);
+        }
+    }
+
+    public void ValidateHP(float newHp)
+    {
+        if(newHp < 0)
+        {
+            this.hp = 0;
+        }
+        else if(newHp > this.maxHp)
+        {
+            this.hp = this.maxHp;
+        }
+        else
+        {
+            this.hp = newHp;
         }
     }
 }

@@ -42,7 +42,7 @@ public class Player
         if(damage < 0)
         {
         
-            Console.WriteLine("{0} takes 0 damage!", name, damage);
+            Console.WriteLine("{0} takes {1} damage!", name, damage);
             damage = 0;
         }
     }
@@ -54,7 +54,7 @@ public class Player
         if(heal < 0)
         {
             
-            Console.WriteLine("{0} heals 0 HP!", name);
+            Console.WriteLine("{0} heals {1} HP!", name);
             heal = 0;
         }
     }
