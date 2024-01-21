@@ -101,7 +101,7 @@ public class Player
         else if (currentCondition >= 0.5f)
             status = string.Format("{0} is doing well!", name);
         else if (currentCondition >= 0.25f)
-            status = string.Format("{0} isnt doing too great...", name);
+            status = string.Format("{0} isn't doing too great...", name);
         else if (currentCondition > 0f)
             status = string.Format("{0} needs help!", name);
         else
