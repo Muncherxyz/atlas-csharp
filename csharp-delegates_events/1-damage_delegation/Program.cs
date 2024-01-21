@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 /// <summary>
 /// Public class Player created
@@ -37,25 +37,25 @@ public class Player
     /// <summary>
     /// Damage Method. if damage is negative prints takes 0 damage
     /// </summary>
-public void TakeDamage(float damage)
-{
-    Console.WriteLine("{0} takes {1} damage!", name, damage)
-    if(damage < 0)
+    public void TakeDamage(float damage)
     {
-        damage = 0;
-        Console.WriteLine("{0} takes 0 damage!" , name)
+        Console.WriteLine("{0} takes {1} damage!", name, damage);
+        if(damage <= 0)
+        {
+            damage = 0;
+            Console.WriteLine("{0} takes 0 damage!", name, damage);
+        }
     }
-}
 /// <summary>
 /// Heal method. if heal is negative prints heals 0 hp
 /// </summary>
-public void HealDamage(float heal)
-{
-    Console.WriteLine("{0} heals {1} HP!", name, heal)
-    if(heal < 0)
+    public void HealDamage(float heal)
     {
-        heal = 0;
-        Console.WriteLine("{0} heals 0 HP!" , name)
+        Console.WriteLine("{0} heals {1} HP!", name, heal);
+        if(heal <= 0)
+        {
+            heal = 0;
+            Console.WriteLine("{0} heals 0 HP!", name);
+        }
     }
-
 }
