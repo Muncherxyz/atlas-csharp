@@ -40,10 +40,9 @@ public class Player
     public void TakeDamage(float damage)
     {
         if(damage <= 0f)
-        {
             damage = 0f;
             Console.WriteLine("{0} takes {1} damage!", name, damage);
-        }
+    
     }
 /// <summary>
 /// Heal method. if heal is negative prints heals 0 hp
@@ -51,9 +50,8 @@ public class Player
     public void HealDamage(float heal)
     {
         if(heal <= 0f)
-        {
             heal = 0f;
             Console.WriteLine("{0} heals {1} HP!", name, heal);
-        }
+        
     }
 }
