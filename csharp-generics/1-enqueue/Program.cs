@@ -5,6 +5,7 @@
 /// </summary>
 class Queue<T>
 {
+    
     /// <summary>
     /// method that returns the queues type.
     /// </summary>
