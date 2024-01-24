@@ -119,7 +119,7 @@ class Queue<T>
             return null;
         }
         Node n = head;
-        string pseudo = " ";
+        string pseudo = "";
         while(n != null)
         {
             pseudo += n.value;
