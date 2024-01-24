@@ -15,13 +15,14 @@ class Queue<T>
 
     public class Node
     {
-        T value = null;
-        Node next = null;
+        public T value = null;
+        public Node next = null;
 
-        public nodeNew(T value)
+        public Node(T value)
         {
             this.value = value;
         }
+    }
 
         Node head;
         Node tail;
@@ -55,5 +56,5 @@ class Queue<T>
         {
             return count;
         }
-    }
+    
 }
