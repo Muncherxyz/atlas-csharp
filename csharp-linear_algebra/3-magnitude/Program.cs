@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace _3_magnitude
+/// <summary>
+/// VectorMath class.
+/// </summary>
+public static class VectorMath
 {
-    class Program
+
+    /// <summary>
+    /// Magnitude Method. takes an array named vector 
+    /// </summary>
+    /// <param name="vector"></param>
+    /// <returns></returns>
+       public static double Magnitude(double[] vector)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        if(vector.Length > 3 || vector.Length < 2)
+            return -1;
     }
 }
