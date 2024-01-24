@@ -11,7 +11,7 @@ public static class VectorMath
 /// </summary>
     public static double Add(double[] vector1, double[] vector2)
     {
-            int len = vector1.Length;
+            double len = vector1.Length;
 
     if (len < 2 || len > 3 || len != vector2.Length)
         return new double[] {-1};
