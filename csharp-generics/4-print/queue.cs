@@ -88,7 +88,7 @@ class Queue<T>
         /// <summary>
         /// Print Method. Loops through nodes starting from head until it reaches the end.
         /// </summary>
-        public T Print()
+        public void Print()
         {
             if(head == null)
             {
