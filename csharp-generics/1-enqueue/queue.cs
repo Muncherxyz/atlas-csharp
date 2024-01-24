@@ -15,12 +15,13 @@ class Queue<T>
 
     public class Node
     {
-        public T value = null;
-        public Node next = null;
+        public T value;
+        public Node next;
 
         public Node(T value)
         {
             this.value = value;
+            this.next = null;
         }
     }
 
