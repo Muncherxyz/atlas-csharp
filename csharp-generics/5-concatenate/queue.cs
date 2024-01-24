@@ -113,7 +113,7 @@ class Queue<T>
                 Console.WriteLine("Queue is empty");
                 return null;
             }
-            else if(head != typeof(String) or head != typeof(Char))
+            if(typeof(T) != typeof(string) && type(T) != typeof(char))
             {
                 Console.WriteLine("Concatenate() is for a queue of Strings or Chars only")
                 return null;
