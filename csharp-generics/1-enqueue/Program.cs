@@ -18,7 +18,7 @@ class Queue<T>
         T value = null;
         Node next = null;
 
-        public nodeNew(T Value)
+        public nodeNew(T value)
         {
             this.value = value;
         }
@@ -27,16 +27,31 @@ class Queue<T>
         Node tail;
         int count;
 
-        public Enqueue()
+        /// <summary>
+        /// Method that creates a new node and adds it to the end of the queue
+        /// </summary>
+        /// <param name="value"></param>
+        public void Enqueue(T value)
         {
-            Node newNode = new Node();
-            if(Queue == null)
-
-
-            
+            Node newNode = new Node(value);
+            if(head == null)
+            {
+                head = newNode;
+                tail = newNode;
+            }
+            else
+            {
+                tail.next = newNode;
+                tail = newNode;
+                
+            }
+            count++;
         }
 
-        public Count()
+        /// <summary>
+        /// Method that returns the number of nodes in a queue
+        /// </summary>
+        public int Count()
         {
             return count;
         }
