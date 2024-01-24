@@ -82,7 +82,7 @@ class Queue<T>
                 Console.WriteLine("Queue is empty");
                 return default(T);
             }
-            return node.value;
+            return head.value;
         }
         /// <summary>
         /// Method that returns the number of nodes in a queue
