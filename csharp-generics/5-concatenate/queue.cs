@@ -104,7 +104,7 @@ class Queue<T>
         }
 
         /// <summary>
-        /// Concatenate method.
+        /// Concatenate method. Concatenates all values in the queue. 
         /// </summary>
       public string Concatenate()
     {
@@ -123,6 +123,8 @@ class Queue<T>
         while(n != null)
         {
             pseudo += n.value;
+            if (typeof(T) == typeof(string) && n.next != null)
+                pseudo+= " ";
             n = n.next;
         }
         return pseudo;
