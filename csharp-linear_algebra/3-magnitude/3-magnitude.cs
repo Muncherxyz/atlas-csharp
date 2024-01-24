@@ -17,7 +17,7 @@ public static class VectorMath
         {
             return -1;
         }
-        double mag = 0
+        double mag = 0;
         foreach (double i in vector)
         {
             mag += i * i;
