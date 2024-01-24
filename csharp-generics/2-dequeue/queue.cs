@@ -53,7 +53,7 @@ class Queue<T>
         /// Dequeue method. checks if queue is empty. removes first node in queue and returns its value.
         /// </summary>
 
-        public void Dequeue()
+        public T Dequeue()
         {
             if(head == null)
             {
