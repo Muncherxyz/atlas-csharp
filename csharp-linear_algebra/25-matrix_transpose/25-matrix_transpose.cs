@@ -11,7 +11,7 @@ public static class MatrixMethod
 
     public static double[,] Transpose(double[,] matrix)
     {
-        double[,] res= new double[matrix.GetLenght(1), matrix.GetLength(0)];
+        double[,] res= new double[matrix.GetLength(1), matrix.GetLength(0)];
 
         for(int i = 0; i < matrix.GetLength(0); i++)
             for(int j = 0; j < matrix.GetLength(1); j++)
