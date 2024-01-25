@@ -18,7 +18,7 @@ public static class VectorMath
 
         double[] prod = new double[vector.Length];
         for(int i = 0; i < vector.Length; i++)
-            sum[i] = vector1[i] * scalar;
+            prod[i] = vector1[i] * scalar;
         return prod;
     }
 }
