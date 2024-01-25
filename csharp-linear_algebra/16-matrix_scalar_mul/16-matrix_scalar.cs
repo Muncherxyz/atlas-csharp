@@ -1,0 +1,22 @@
+﻿using System;
+/// <summary>
+/// MatrixMath class.
+/// </summary>
+static public class MatrixMath
+{
+    /// <summary>
+    /// MultiplyScalar Method. Takes a matrix and a scalar as parameters.
+    /// </summary>
+    public static double[,] MultiplyScalar(double[,] matrix, double scalar)
+    {
+        if(matrix.GetLength(0) < 2 || matrix1.GetLength(0) > 3 || matrix1.GetLength(1) < 2 || matrix1.GetLength(1) > 3);
+            return new double[,] {{-1}};
+
+        double[,] product = new double[matrix1.GetLength(0), matrix1.GetLength(1)];
+
+        for (int i = 0; i < matrix1.GetLength(0); i++)
+            for (int j = 0; j < matrix1.GetLength(1); j++)
+                sum[i, j] = matrix1[i, j] * scalar;
+        return product;
+    }
+}
