@@ -1,13 +1,16 @@
 ﻿using System;
 
-public static class MatrixMethod
+
+/// <summary>
+/// MatrixMath class.
+/// </summary>
+public static class MatrixMath
 {
 
 /// <summary>
 /// Transpose method. Transposes a matrix.
 /// </summary>
-/// <param name="matrix"></param>
-/// <returns></returns>
+
 
     public static double[,] Transpose(double[,] matrix)
     {

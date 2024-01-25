@@ -5,7 +5,7 @@
 static public class MatrixMath
 {
     /// <summary>
-    /// MultiplyScalar Method. Takes a matrix and a scalar as parameters.
+    /// MultiplyMethod. takes 2 matrices as parameters and multiplies them.
     /// </summary>
    public static double[,] Multiply(double[,] matrix1, double[,] matrix2) 
     {
