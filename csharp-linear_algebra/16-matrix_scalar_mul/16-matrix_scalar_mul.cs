@@ -16,7 +16,7 @@ static public class MatrixMath
 
         for (int i = 0; i < matrix.GetLength(0); i++)
             for (int j = 0; j < matrix.GetLength(1); j++)
-                prod[i, j] = matrix1[i, j] * scalar;
+                prod[i, j] = matrix[i, j] * scalar;
         return prod;
     }
 }
